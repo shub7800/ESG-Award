@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+.letter {
+  background: linear-gradient(to bottom, #fffbe6, #ffffff);
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  margin-top: 40px;
+}
+
+a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.signatures {
+  display: flex;
+  justify-content: start;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  align-items: flex-start;
+}
+
+.signature-block {
+  flex: 1;
+  min-width: 280px;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.signature-block img {
+  display: block;
+  max-height: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.ganga-sig {
+  transform: rotate(15deg); /* or use 5deg for a slight angle */
+  display: block;
+  max-height: 80px; /* Optional uniform height */
+  margin-top: -5px; /* Adjust as per visual need */
+}
+
+.esg-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #b30000;
+  margin-bottom: 30px;
+  font-family: 'Georgia', serif;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.esg-award-image {
+  display: block;
+  max-width: 60%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+/* Footer Styling */
+.custom-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 40px;
+  margin-top: 50px;
+  border-top: 2px solid #ccc;
+  font-size: 14px;
+  color: #000;
+  flex-wrap: wrap;
+  gap: 30px;
+  background: linear-gradient(176deg, rgba(255, 246, 227, 1) 0%, rgba(255, 230, 251, 1) 100%);
+}
+
+
+.footer-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-left img {
+  max-width: 80%;
+  height: auto;
+}
+
+.footer-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.footer-right h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-right .yellow {
+  color: #f4b400;
+}
+
+.footer-right .blue {
+  color: #1a73e8;
+}
+
+.footer-right a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}
+
+.footer-right p {
+  margin: 4px 0;
+  line-height: 1.5;
+}
+
+
